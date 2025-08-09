@@ -1,12 +1,25 @@
 import "./global.css"
-import { Text, View } from "react-native";
+import {SafeAreaView} from "react-native-safe-area-context";
+import {FlatList, Pressable, View, Text} from "react-native";
+import { offers } from "@/constants";
 
 export default function Index() {
     return (
-        <View className="flex-1 items-center justify-center bg-white">
-            <Text className="text-5xl text-center font-bold text-primary font-quicksand-bold">
-                Welcome to my Nativewind!
-            </Text>
-        </View>
+        <SafeAreaView>
+            <FlatList
+            data={offers}
+            renderItem={({item, index}) => {
+                return (
+                    <View>
+                        <Pressable className="bg-amber-600 my-3 h-48 rounded-xl">
+                            <Text>{item.title}</Text>
+
+                        </Pressable>
+                    </View>
+
+                )
+            }}/>
+
+        </SafeAreaView>
     );
 }
