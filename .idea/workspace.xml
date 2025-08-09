@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d49fc51f-4828-43e6-9382-ca700b70f217" name="Changes" comment="Configuring Tailwind CSS and Update on Project">
+    <list default="true" id="d49fc51f-4828-43e6-9382-ca700b70f217" name="Changes" comment="Update On Index Page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/global.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Quicksand-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Quicksand-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Quicksand-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Quicksand-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Quicksand-SemiBold.ttf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +93,7 @@
       <workItem from="1754741950638" duration="1711000" />
       <workItem from="1754744576644" duration="2338000" />
       <workItem from="1754759148806" duration="19000" />
-      <workItem from="1754759179227" duration="8095000" />
+      <workItem from="1754759179227" duration="8721000" />
     </task>
     <task id="LOCAL-00001" summary="Configuring Tailwind CSS and Update on Project">
       <option name="closed" value="true" />
@@ -141,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754770251762</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Update On Index Page">
+      <option name="closed" value="true" />
+      <created>1754776317739</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1754776317739</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +162,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Configuring Tailwind CSS and Update on Project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Configuring Tailwind CSS and Update on Project" />
+    <MESSAGE value="Update On Index Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update On Index Page" />
   </component>
 </project>

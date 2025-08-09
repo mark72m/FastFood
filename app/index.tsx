@@ -1,7 +1,8 @@
 import "./global.css"
 import {SafeAreaView} from "react-native-safe-area-context";
-import {FlatList, Pressable, View, Text} from "react-native";
+import {FlatList, Pressable, View, Text, Image} from "react-native";
 import { offers } from "@/constants";
+import {Fragment} from "react";
 
 export default function Index() {
     return (
@@ -11,9 +12,15 @@ export default function Index() {
             renderItem={({item, index}) => {
                 return (
                     <View>
-                        <Pressable className="bg-amber-600 my-3 h-48 rounded-xl">
-                            <Text>{item.title}</Text>
+                        <Pressable className="offer-card" style={{backgroundColor: item.color}}>
+                            {({pressed}) => (
+                                <Fragment>
+                                    <View className={"h-full w-1/2"}>
+                                        <Image source={item.image} className={"size-full"} resizeMode={"contain"}/>
 
+                                    </View>
+                                </Fragment>
+                            )}
                         </Pressable>
                     </View>
 
