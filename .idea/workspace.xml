@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d49fc51f-4828-43e6-9382-ca700b70f217" name="Changes" comment="Update on Authentication">
-      <change afterPath="$PROJECT_DIR$/type.d.ts" afterDir="false" />
+    <list default="true" id="d49fc51f-4828-43e6-9382-ca700b70f217" name="Changes" comment="Custom Button and CustomInput Builds">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(auth)/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/_layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(auth)/sign-in.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/sign-in.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/CustomButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/CustomButton.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/CustomInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/CustomInput.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,27 +47,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/HP/Documents/Shared/React/fastFood",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "C:\\Users\\HP\\Documents\\Shared\\React\\fastFood\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/HP/Documents/Shared/React/fastFood&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\HP\\Documents\\Shared\\React\\fastFood\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\HP\Documents\Shared\React\fastFood\assets\fonts" />
@@ -101,7 +102,16 @@
       <workItem from="1754855083192" duration="47000" />
       <workItem from="1754855168509" duration="247000" />
       <workItem from="1754855446261" duration="32000" />
-      <workItem from="1754855479698" duration="14875000" />
+      <workItem from="1754855479698" duration="15718000" />
+      <workItem from="1754977900743" duration="23000" />
+      <workItem from="1754977966767" duration="253000" />
+      <workItem from="1754980344370" duration="2190000" />
+      <workItem from="1754982748538" duration="2078000" />
+      <workItem from="1756409261466" duration="602000" />
+      <workItem from="1756459969364" duration="1637000" />
+      <workItem from="1756461627689" duration="1038000" />
+      <workItem from="1756466130493" duration="3255000" />
+      <workItem from="1756487564354" duration="336000" />
     </task>
     <task id="LOCAL-00001" summary="Configuring Tailwind CSS and Update on Project">
       <option name="closed" value="true" />
@@ -191,7 +201,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754917051202</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Custom Button and CustomInput Builds">
+      <option name="closed" value="true" />
+      <created>1754936827519</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1754936827519</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,14 +231,14 @@
     <MESSAGE value="Update On Index Page" />
     <MESSAGE value="Update on App Folder" />
     <MESSAGE value="Update on Authentication" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update on Authentication" />
+    <MESSAGE value="Custom Button and CustomInput Builds" />
+    <option name="LAST_COMMIT_MESSAGE" value="Custom Button and CustomInput Builds" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/constants/index.ts</url>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
