@@ -22,7 +22,8 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "UsesCleartextTraffic": true
+      "UsesCleartextTraffic": true,
+      "package": "com.anonymous.fastFood"
     },
     "web": {
       "bundler": "metro",
