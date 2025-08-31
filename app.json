@@ -22,7 +22,6 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "UsesCleartextTraffic": true,
       "package": "com.anonymous.fastFood"
     },
     "web": {
