@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d49fc51f-4828-43e6-9382-ca700b70f217" name="Changes" comment="Custom Button and CustomInput Builds">
+    <list default="true" id="d49fc51f-4828-43e6-9382-ca700b70f217" name="Changes" comment="Changes on npx Errors">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(auth)/sign-in.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/sign-in.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +111,7 @@
       <workItem from="1756491101352" duration="2775000" />
       <workItem from="1756520213867" duration="4649000" />
       <workItem from="1756556852130" duration="2367000" />
-      <workItem from="1756660690548" duration="3534000" />
+      <workItem from="1756660690548" duration="7192000" />
     </task>
     <task id="LOCAL-00001" summary="Configuring Tailwind CSS and Update on Project">
       <option name="closed" value="true" />
@@ -227,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756520841395</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Changes on npx Errors">
+      <option name="closed" value="true" />
+      <created>1756669789342</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1756669789342</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,7 +256,8 @@
     <MESSAGE value="Update on App Folder" />
     <MESSAGE value="Update on Authentication" />
     <MESSAGE value="Custom Button and CustomInput Builds" />
-    <option name="LAST_COMMIT_MESSAGE" value="Custom Button and CustomInput Builds" />
+    <MESSAGE value="Changes on npx Errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes on npx Errors" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -258,6 +265,11 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/constants/index.ts</url>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/(auth)/sign-in.tsx</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

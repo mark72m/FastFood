@@ -2,6 +2,7 @@ import {View, Text, Button} from 'react-native'
 import React from 'react'
 import CustomInput from "@/components/CustomInput";
 import CustomButton from "@/components/CustomButton";
+import {Link} from "expo-router";
 
 export default function SignIn() {
     return (
@@ -20,7 +21,14 @@ export default function SignIn() {
                 label={"Password"}
                 secureTextEntry={true}/>
 
-            <CustomButton />
+            <CustomButton title={"Sign In"}/>
+
+            <View>
+                <Text className={"base-regular text-gray-100"}>
+                    Don't have an account ?
+                </Text>
+                <Link href={"/sign-up"} className={"base-bold text-primary"}>Sign Up</Link>
+            </View>
         </View>
     )
 }
