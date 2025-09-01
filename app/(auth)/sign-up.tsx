@@ -9,13 +9,13 @@ export default function SignUp() {
     const [form, setForm] = useState({name: '', email: '', password: ''});
 
     const submit = async () => {
-        if(!form.name || !form.email || !form.password) Alert.alert('Error','Please Input a Valid Email Address and Password!!')
+        if(!form.name || !form.email || !form.password) return Alert.alert('Error','Please Input a Valid Email Address and Password!!')
         setIsSubmitting(true)
 
         try{
             // Call Appwrite Sign Up Function
 
-            Alert.alert('Success', 'Signed In Successfully');
+            Alert.alert('Success', 'Signed Up Successfully');
             router.replace('/');
         }catch(error: any){
             Alert.alert('Error', error.message);
@@ -26,11 +26,10 @@ export default function SignUp() {
     return (
         <View className={"gap-10 bg-white rounded-lg p-5 mt-5"}>
             <CustomInput
-                placeholder={"Enter Full Names"}
+                placeholder={"Enter Your Full Name"}
                 value={form.name}
                 onChangeText={(text) => setForm((prev) => ({...prev, name: text}))}
-                label={"Name"}
-                keyboardType={"email-address"}/>
+                label={"Name"}/>
 
             <CustomInput
                 placeholder={"Enter Your Email"}
@@ -47,7 +46,7 @@ export default function SignUp() {
                 secureTextEntry={true}/>
 
             <CustomButton
-                title={"Sign In"}
+                title={"Sign Up"}
                 isLoading={isSubmitting}
                 onPress={submit}/>
 

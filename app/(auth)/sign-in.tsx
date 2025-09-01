@@ -9,7 +9,7 @@ export default function SignIn() {
     const [form, setForm] = useState({email: '', password: ''});
 
     const submit = async () => {
-        if(!form.email || !form.password) Alert.alert('Error','Please Input a Valid Email Address and Password!!')
+        if(!form.email || !form.password) return Alert.alert('Error','Please Input a Valid Email Address and Password!!')
         setIsSubmitting(true)
 
         try{
