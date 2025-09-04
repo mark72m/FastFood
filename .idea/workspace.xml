@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d49fc51f-4828-43e6-9382-ca700b70f217" name="Changes" comment="Sign In, Sign Up and Appwrite Updates">
+    <list default="true" id="d49fc51f-4828-43e6-9382-ca700b70f217" name="Changes" comment="Authentication changes and Updates">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(auth)/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/_layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(tabs)/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/_layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(tabs)/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/auth.store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/store/auth.store.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +112,7 @@
       <workItem from="1756520213867" duration="4649000" />
       <workItem from="1756556852130" duration="2367000" />
       <workItem from="1756660690548" duration="29281000" />
-      <workItem from="1756870632386" duration="10643000" />
+      <workItem from="1756870632386" duration="12736000" />
     </task>
     <task id="LOCAL-00001" summary="Configuring Tailwind CSS and Update on Project">
       <option name="closed" value="true" />
@@ -326,7 +322,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756913757195</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Authentication changes and Updates">
+      <option name="closed" value="true" />
+      <created>1757021899470</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1757021899472</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,7 +357,8 @@
     <MESSAGE value="Sign In Updates" />
     <MESSAGE value="Sign In, Sign Up Updates" />
     <MESSAGE value="Sign In, Sign Up and Appwrite Updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sign In, Sign Up and Appwrite Updates" />
+    <MESSAGE value="Authentication changes and Updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Authentication changes and Updates" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
