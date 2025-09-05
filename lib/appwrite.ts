@@ -6,7 +6,10 @@ export const appwriteConfig = {
     projectId: process.env.EXPO_PUBLIC_APPWRITE_PROJECT_ID!,
     platform: "com.tts.fastFood",
     databaseId: '6899e1a60038ffbd670d',
-    userCollectionId: '6899e1f90020a7114640'
+    userCollectionId: '6899e1f90020a7114640',
+    categoriesCollectionId: 'categories',
+    menuCollectionId: 'menu',
+    customizationsCollectionId: 'customizations'
 }
 
 export const client = new Client();
