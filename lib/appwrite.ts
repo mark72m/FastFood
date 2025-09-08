@@ -2,8 +2,8 @@ import {Account, Avatars, Client, Databases, ID, Query, Storage} from "react-nat
 import {CreateUserParams, SignInParams} from "@/type";
 
 export const appwriteConfig = {
-    endpoint: process.env.EXPO_PUBLIC_APPWRITE_ENDPOINT!,
-    projectId: process.env.EXPO_PUBLIC_APPWRITE_PROJECT_ID!,
+    endpoint: process.env.EXPO_PUBLIC_APPWRITE_ENDPOINT,
+    projectId: process.env.EXPO_PUBLIC_APPWRITE_PROJECT_ID,
     platform: "com.tts.fastFood",
     databaseId: '6899e1a60038ffbd670d',
     bucketId: '68bc48690022ebecba4d',
@@ -17,8 +17,8 @@ export const appwriteConfig = {
 export const client = new Client();
 
 client
-    .setEndpoint(appwriteConfig.endpoint)
-    .setProject(appwriteConfig.projectId)
+    .setEndpoint(appwriteConfig.endpoint!)
+    .setProject(appwriteConfig.projectId!)
     .setPlatform(appwriteConfig.platform)
 
 export  const account = new Account(client);
@@ -42,8 +42,8 @@ export const createUser = async({name, email, password} : CreateUserParams) => {
             {email, name, accountId: newAccount.$id, avatar: avatarUrl }
         );
 
-    } catch (error) {
-        throw new Error(error as string);
+    } catch (e) {
+        throw new Error(e as string);
     }
 }
 

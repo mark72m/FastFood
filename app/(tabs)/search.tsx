@@ -9,8 +9,7 @@ const Search = () => {
             <Text>Search</Text>
             <Button
                 title={"Seed"}
-                onPress={() => seed()
-                    .catch((error) => console.log("Failed to Seed the Database.", error))}
+                onPress={() => seed().catch((error) => console.log("Failed to Seed the Database.", error))}
             />
         </SafeAreaView>
     )
