@@ -17,10 +17,10 @@ interface MenuItem {
     name: string;
     description: string;
     image_url: string;
-    price: number;
     rating: number;
     calories: number;
     protein: number;
+    price: number;
     category_name: string;
     customizations: string[]; // list of customization names
 }
@@ -31,7 +31,7 @@ interface DummyData {
     menu: MenuItem[];
 }
 
-// ensure dummyData has correct shape
+// ensure dummyData has shape
 const data = dummyData as DummyData;
 
 async function clearAll(collectionId: string): Promise<void> {
@@ -126,10 +126,10 @@ async function seed(): Promise<void> {
                 name: item.name,
                 description: item.description,
                 image_url: uploadedImage,
-                price: item.price,
                 rating: item.rating,
                 calories: item.calories,
                 protein: item.protein,
+                price: item.price,
                 categories: categoryMap[item.category_name],
             }
         );
