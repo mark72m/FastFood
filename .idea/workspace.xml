@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d49fc51f-4828-43e6-9382-ca700b70f217" name="Changes" comment="search updates">
+      <change afterPath="$PROJECT_DIR$/components/MenuCard.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(tabs)/search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/search.tsx" afterDir="false" />
     </list>
@@ -118,7 +119,7 @@
       <workItem from="1757326034289" duration="948000" />
       <workItem from="1757327004497" duration="440000" />
       <workItem from="1757327646340" duration="724000" />
-      <workItem from="1757328402640" duration="18075000" />
+      <workItem from="1757328402640" duration="25489000" />
     </task>
     <task id="LOCAL-00001" summary="Configuring Tailwind CSS and Update on Project">
       <option name="closed" value="true" />
@@ -384,7 +385,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757440588141</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="search updates">
+      <option name="closed" value="true" />
+      <created>1757483288999</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1757483289000</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
